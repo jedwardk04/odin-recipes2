@@ -1,0 +1,66 @@
+* {
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+h1 {
+    border-style: groove;
+    border-color: violet;
+    line-height: 150px;
+    text-align: center;
+    height: 170px;
+    color: darkviolet;
+    background-image: url(recipes/blachole.jpeg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tacos {
+    display: flex;
+    border-style: dotted;
+    border-color: green;
+    text-align: center;
+    color: black;
+    background-color: yellowgreen;
+    align-items: center;
+    
+}
+
+
+.ramen {
+    display: flex;
+    border-style: dotted;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-color: white;
+    align-items: center;
+}
+
+.cereal {
+    display: flex;
+    border-style: dashed;
+    background-color: pink;
+    text-align: center;
+    color: black;
+    border-color: lightgreen
+    align-items: center;
+}
+
+:where(.tacos, .ramen, .cereal):hover {
+    background-color: olive
+}
+
+.tacos, .ramen, .cereal{
+    padding: 20px;
+    border: 20px;
+}
+
+.harden, .curry, .freak {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+}
+
+p {
+    background-color: orange;
+}
